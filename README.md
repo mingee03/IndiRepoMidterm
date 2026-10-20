@@ -1,9 +1,9 @@
 # 스터디룸 예약 관리 - 중간 실기 Starter
 
 ## 학생 정보
-- 분반:
-- 학번:
-- 이름:
+- 분반: 1
+- 학번: 22200439
+- 이름: 여민기
 
 ## 개발 환경
 Java 17 / Spring Boot 3.3.5 / Thymeleaf / Bootstrap / MemoryRepository
