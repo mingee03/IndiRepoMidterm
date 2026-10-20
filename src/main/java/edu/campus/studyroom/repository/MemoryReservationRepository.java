@@ -20,11 +20,11 @@ public class MemoryReservationRepository {
     }
     public Optional<Reservation> findById(Long id) {
         // TODO
-        return Optional.empty();
+        return Optional.ofNullable(reservations.get(id));
     }
     public List<Reservation> findAll() {
         // TODO
-        return List.of();
+        return new ArrayList<>(reservations.values());
     }
     public List<Reservation> initialList() { return new ArrayList<>(reservations.values()); }
 }
